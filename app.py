@@ -12,6 +12,7 @@ from services.discoveryService import DiscoveryService
 from services.notificationService import NotificationService
 from services.deviceRegistryService import DeviceRegistryService
 
+#Comment made by first dev
 
 if os.environ.get("LOG_MODE") == "prod":
     # logging in prod mode
