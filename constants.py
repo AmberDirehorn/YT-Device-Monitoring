@@ -10,3 +10,4 @@ OFFLINE_STATE = "offline"
 ONLINE_STATE = "online"
 
 DISCOVERY_PERIOD_SEC = int(os.environ.get("DISCOVERY_PERIOD_SEC", default=30))
+#task 107 comment 2
