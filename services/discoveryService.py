@@ -2,7 +2,7 @@ import os
 from queue import Queue
 from services.discoveryWorker import DiscoveryWorker
 from services.deviceRegistryService import DeviceRegistryService
-
+#some changes
 
 class DiscoveryService(object):
     _instance = None
