@@ -11,7 +11,7 @@ log = logging.getLogger(__name__)
 DEVICES_DIR = os.path.join(RESOURCES_DIR, "devices")
 MOCK_DATA_COUNT = int(os.environ.get("MOCK_DATA_COUNT", 30))
 
-
+#comment by dev2
 def clean_data():
     log.debug("Cleaning devices dir...")
     try:
